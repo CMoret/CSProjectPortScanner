@@ -1,4 +1,5 @@
-#This program scans the port entered, successfully registers connections along with ending program if host IP is blocking port 
+#This program scans the port entered, successfully registers connections along with ending program if host 
+#IP is blocking port 
 
 import socket
 import sys
@@ -13,7 +14,7 @@ print("Scanning Started: " + str(datetime.now()))
 
 
 try:
-#Attemps to find ports
+#Attemps to find open ports
     for port in range(1,65535):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(0.10)
