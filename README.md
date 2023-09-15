@@ -1,6 +1,6 @@
 # CSProjectPortScanner
 
-Read Me in Progress...
+READ ME UNDER CONSTRUCTION
 
 Language: Python
 
